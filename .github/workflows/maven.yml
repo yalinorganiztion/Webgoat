@@ -97,7 +97,7 @@ jobs:
           platforms: "linux/amd64,linux/arm64"
      
       - name: Build and Push Docker Image
-        uses: docker/build-push-action@v5
+        uses: docker/build-push-action@v6
         id: build
         with:
           file: Dockerfile
